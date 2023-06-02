@@ -1,0 +1,38 @@
+[
+    {
+        "picture": "https://i.ibb.co/V9pNj0m/250px-HTML5-logo-and-wordmark-svg.png",
+        "title": "HTML"
+    },
+    {
+        "picture": "https://i.ibb.co/P1n94gs/919826.png",
+        "title": "CSS"
+    },
+    {
+        "picture": "https://i.ibb.co/DfSLySC/boot.jpg",
+        "title": "Bootstrap"
+    },
+    {
+        "picture": "https://i.ibb.co/GCV0gsx/tails.png",
+        "title": "Tailwind"
+    },
+    {
+        "picture": "https://i.ibb.co/5n7DNND/javascript.png",
+        "title": "JavaScript"
+    },
+    {
+        "picture": "https://i.ibb.co/bv56tqX/react.png",
+        "title": "React "
+    },
+    {
+        "picture": "https://i.ibb.co/1mm86Rt/mongo.jpg",
+        "title": "MongoDB"
+    },
+    {
+        "picture": "https://i.ibb.co/x6mDBWZ/node.png",
+        "title": "Node"
+    },
+    {
+        "picture": "https://i.ibb.co/0DJNm40/ex.png",
+        "title": "Express"
+    }
+]

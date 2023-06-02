@@ -1,3 +1,5 @@
+import Experience from "../../Components/Experience/Experience";
+import Footer from "../../Components/Footer/Footer";
 import NavBar from "../../Components/NavBar/NavBar";
 import LandingPage from "../LandingPage/LandingPage";
 
@@ -6,6 +8,8 @@ const HomePages = () => {
         <div className="min-h-full">
             <NavBar></NavBar>
             <LandingPage></LandingPage>
+            <Experience></Experience>
+            <Footer></Footer>
         </div>
     );
 };
