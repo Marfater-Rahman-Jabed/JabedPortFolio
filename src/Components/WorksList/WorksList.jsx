@@ -25,7 +25,8 @@ const WorksList = () => {
                                     <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-red-600">My Works</h1>
                                 </Fade>
                                 <Fade direction="up">
-                                    <h1 className="font-bold mt-6 text-fuchsia-700">This is a section of projects that showcase my skill and experience about my web development journey This journey start near about one Year ago. Still Now learning process continue..</h1>
+                                    <h1 className="font-bold mt-6 text-fuchsia-700">This is a section of projects that showcase my skill and experience about my web development journey This journey start near about one Year ago. Still Now learning process continue.. <br /><br />
+                                        Click on the photo to see details </h1>
                                 </Fade>
                             </div>
                         </div>
@@ -35,25 +36,25 @@ const WorksList = () => {
                 <Fade direction="right">
                     <div className="w-full border-4 rounded-lg">
                         <div className="card rounded-none bg-base-100 h-72  grid grid-cols-2">
-                            <div className="m-1 border-4 border-blue-600 border-dashed ">
+                            <div className="m-1 border-4 border-blue-600 border-dashed  " title="BookWorm">
                                 <a href="https://usedbookclient.web.app/" target="__blank">
                                     <img src={WebSitePhoto} alt="webDevelop" className="h-full" />
                                 </a>
 
                             </div>
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="Learn-IT">
                                 <a href="https://learn-it-world.web.app/" target="__blank">
                                     <img src={learnIt} alt="webDevelop" className="h-full" />
                                 </a>
 
                             </div>
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="Dragon-News">
                                 <a href="https://dragon-news-a2e4c.web.app/" target="__blank">
                                     <img src={dragonNews} alt="webDevelop" className="h-full" />
                                 </a>
 
                             </div>
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="Doctors-Portal">
                                 <a href="https://doctors-portal-77db2.web.app/" target="__blank">
                                     <img src={doctorPortal} alt="webDevelop" className="h-full" />
                                 </a>
@@ -67,25 +68,25 @@ const WorksList = () => {
                 <Fade direction="left">
                     <div className="w-full border-4 rounded-lg">
                         <div className="card rounded-none bg-base-100 h-72  grid grid-cols-2">
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="Transport-Service">
                                 <a href="https://travel-service-908b3.web.app/" target="__blank">
                                     <img src={transport} alt="webDevelop" className="h-full" />
                                 </a>
 
                             </div>
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="BookWorm">
                                 <a href="https://usedbookclient.web.app/" target="__blank">
                                     <img src={WebSitePhoto} alt="webDevelop" className="h-full" />
                                 </a>
 
                             </div>
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="BookWorm">
                                 <a href="https://usedbookclient.web.app/" target="__blank">
                                     <img src={WebSitePhoto} alt="webDevelop" className="h-full" />
                                 </a>
 
                             </div>
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="BookWorm">
 
                                 <a href="https://usedbookclient.web.app/" target="__blank">
                                     <img src={WebSitePhoto} alt="webDevelop" className="h-full" />
@@ -100,25 +101,25 @@ const WorksList = () => {
                 <Fade direction="right">
                     <div className="w-full border-4 rounded-lg">
                         <div className="card rounded-none bg-base-100 h-72  grid grid-cols-2">
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="BookWorm">
                                 <a href="https://usedbookclient.web.app/" target="__blank">
                                     <img src={WebSitePhoto} alt="webDevelop" className="h-full" />
                                 </a>
 
                             </div>
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="BookWorm">
                                 <a href="https://usedbookclient.web.app/" target="__blank">
                                     <img src={WebSitePhoto} alt="webDevelop" className="h-full" />
                                 </a>
 
                             </div>
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="BookWorm">
                                 <a href="https://usedbookclient.web.app/" target="__blank">
                                     <img src={WebSitePhoto} alt="webDevelop" className="h-full" />
                                 </a>
 
                             </div>
-                            <div className="m-1 border-4 border-blue-600 border-dashed">
+                            <div className="m-1 border-4 border-blue-600 border-dashed" title="BookWorm">
                                 <a href="https://usedbookclient.web.app/" target="__blank">
                                     <img src={WebSitePhoto} alt="webDevelop" className="h-full" />
                                 </a>
