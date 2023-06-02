@@ -14,9 +14,9 @@ const Experience = () => {
 
     return (
         <div className="mt-24 lg:mx-24 md:mx-12 mx-10">
-            <div>
+            <div className="mb-10">
                 <Fade direction="left" duration={2000} >
-                    <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-600 to-white mb-10">My Experience</h1>
+                    <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-600 to-white ">My Experience</h1>
                 </Fade>
             </div>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2  ">
