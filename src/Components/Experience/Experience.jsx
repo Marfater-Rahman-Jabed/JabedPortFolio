@@ -58,7 +58,7 @@ export default class AutoPlay extends Component {
                 <Fade direction="left" duration={2000}>
                     <h2 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-600 to-white py-10">My Experience</h2>
                 </Fade>
-                <Slider {...settings} className="px-6">
+                <Slider {...settings} className="lg:mx-16 md:mx-16 sm:mx-12">
 
                     <div>
                         <ExpCard images={html} title="HTML"></ExpCard>

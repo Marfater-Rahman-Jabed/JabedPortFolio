@@ -14,7 +14,7 @@ const WorksList = () => {
         <div>
             <div className="mt-10">
                 <Fade direction="left" duration={2000}>
-                    <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-600 to-white "> What I Do</h1>
+                    <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-600 to-white py-6 mt-20"> What I Do</h1>
                 </Fade>
             </div>
             <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 mt-16 lg:mx-24">

@@ -35,12 +35,12 @@ const Contact = () => {
     return (
         <div className="lg:mx-24 mt-32">
             <Fade direction="left" duration={2000}>
-                <div className="mb-10">
+                <div className="lg:mb-10 md:mb-10 sm:mb-4">
                     <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-600 to-white ">Contact With  Me</h1>
                 </div>
             </Fade>
             <div className="w-full grid lg:grid-cols-2 grid-cols-1">
-                <div className=" h-72 flex flex-col gap-2 justify-center items-center ">
+                <div className="lg:visible invisible  lg:h-72 flex flex-col gap-2 justify-center items-center ">
 
                     <Fade direction="up">
                         <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-700 to-white mb-4 ">Hellow !!</h1>
