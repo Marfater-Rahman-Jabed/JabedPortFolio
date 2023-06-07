@@ -2,6 +2,7 @@ import Typewriter from 'typewriter-effect';
 import Jabed from '../../assets/JabedPhoto.png';
 import { BsFacebook, BsGithub, BsLinkedin, BsMessenger, BsTelegram, BsWhatsapp } from "react-icons/bs";
 import { Fade } from 'react-awesome-reveal';
+import { Link } from 'react-router-dom';
 const LandingPage = () => {
     return (
         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:ms-10'>
@@ -31,8 +32,8 @@ const LandingPage = () => {
                 </div>
 
                 <div className='mb-4'>
-                    <button className="btn btn-outline btn-primary text-white">Hire Me</button>
-                    <button className="btn btn-outline btn-warning mx-4">Resume</button>
+                    <button className="btn btn-outline btn-primary text-white"><Link to='/contact'>Hire Me</Link></button>
+                    <button className="btn btn-outline btn-warning mx-4">            <a href="Marfater Rahman Resume.pdf" download="Marfater Rahman Resume.pdf">Resume</a> </button>
                 </div>
             </div>
             <div>

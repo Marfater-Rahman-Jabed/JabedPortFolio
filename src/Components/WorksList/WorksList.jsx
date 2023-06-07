@@ -3,7 +3,9 @@ import WebSitePhoto from "../../assets/Screenshot (2).png"
 import learnIt from "../../assets/LearnIt.png";
 import doctorPortal from "../../assets/doctorsPortal.png";
 import dragonNews from "../../assets/dragonNews.png";
-import transport from "../../assets/transfortService.png"
+import transport from "../../assets/transfortService.png";
+import { Link } from "react-router-dom";
+
 
 
 
@@ -17,17 +19,20 @@ const WorksList = () => {
             </div>
             <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 mt-16 lg:mx-24">
                 <Fade direction="left" >
-                    <div className="w-full ">
+                    <div className="w-full border-4 rounded-lg">
 
-                        <div className="card  bg-base-100 h-72 ">
+                        <div className="card rounded-none bg-base-100 h-72 ">
                             <div className="card-body">
                                 <Fade direction="up">
                                     <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-red-600">My Works</h1>
                                 </Fade>
                                 <Fade direction="up">
-                                    <h1 className="font-bold mt-6 text-fuchsia-700">This is a section of projects that showcase my skill and experience about my web development journey This journey start near about one Year ago. Still Now learning process continue.. <br /><br />
+                                    <h1 className="font-bold mt-6 text-fuchsia-700">This is a section of projects that showcase my skill and experience about my web development journey This journey start near about one Year ago. Still Now learning process continue.. <br />
                                         Click on the photo to see details </h1>
+                                    <Link to="/viewAllProjects"><button className="btn btn-secondary btn-sm   justify-center">View all projects</button></Link>
+
                                 </Fade>
+
                             </div>
                         </div>
 

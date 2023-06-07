@@ -1,13 +1,17 @@
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.jpeg'
 const NavBar = () => {
     const menu = <>
-        <li className='text-white font-bold'><a>Blog</a></li>
-        <li className='text-white font-bold'> <a>Item 3</a></li>
+        <Link className='text-white font-bold mt-3 rounded-lg p-3 hover:text-purple-700' to="/"><a>Home</a></Link>
+        <Link className='text-white font-bold mt-3 rounded-lg p-3 hover:text-purple-700' to="/viewAllProjects"><a>All Projects</a></Link>
+        <Link className='text-white font-bold mt-3 rounded-lg p-3 hover:text-purple-700' to="/contact"><a>Contact</a></Link>
+        <Link className='text-white font-bold mt-3 rounded-lg p-3 hover:text-purple-700' to="/"><a>Blog</a></Link>
+
     </>
 
     return (
-        <div>
-            <div className="navbar  lg:bg-gradient-to-r from-pink-500 via-fuchsia-700 to-fuchsia-700">
+        <div className='lg:px-10'>
+            <div className="navbar  lg:bg-gradient-to-r from-pink-500 via-fuchsia-700 to-fuchsia-700 ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden ">

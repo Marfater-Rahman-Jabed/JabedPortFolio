@@ -1,10 +1,11 @@
-const ExpCard = ({ experience }) => {
+
+const ExpCard = ({ images, title }) => {
 
     return (
-        <div className="card w-72 h-40 bg-gradient-to-r from-purple-700 via-rose-500 to-blue-700 text-primary-content">
+        <div className="card mx-2 h-44 bg-gradient-to-r from-purple-700 via-rose-500 to-blue-700 text-primary-content">
             <div className="card-body flex flex-col justify-center items-center">
-                <img src={experience.picture} alt="" className="w-20 h-20 rounded-full" />
-                <h2 className="card-title text-2xl">{experience.title}</h2>
+                <img src={images} alt="" className="w-24 h-24 rounded-full" />
+                <h2 className="card-title text-2xl">{title}</h2>
 
 
             </div>

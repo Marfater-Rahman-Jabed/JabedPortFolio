@@ -1,34 +1,97 @@
+import { Component, } from "react";
+import Slider from "react-slick";
+import ExpCard from '../ExpCard/ExpCard'
+import bootstrap from '../../assets/boot.jpeg'
+import react from '../../assets/react.png'
+import tailwind from '../../assets/tails.png'
+import javascript from '../../assets/javascript.png'
+import node from '../../assets/node.png'
+import express from '../../assets/ex.png'
+import reactBootstrap from '../../assets/bootreact.png'
+import css from '../../assets/css.png'
+import html from '../../assets/html.png'
 import { Fade } from "react-awesome-reveal";
-import ExpCard from "../ExpCard/ExpCard";
-import { useEffect, useState } from "react";
 
-const Experience = () => {
-    const [experiences, setExperiences] = useState([])
-    useEffect(() => {
-        fetch('experience.json')
-            .then(res => res.json())
-            .then(data => {
-                setExperiences(data);
-            })
-    }, [])
+export default class AutoPlay extends Component {
 
-    return (
-        <div className="mt-24 lg:mx-24 md:mx-12 mx-10">
-            <div className="mb-10">
-                <Fade direction="left" duration={2000} >
-                    <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-600 to-white ">My Experience</h1>
-                </Fade>
-            </div>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2  ">
+    render() {
 
-                <Fade direction="right">
-                    {
-                        experiences.map((experience, i) => <ExpCard key={i} experience={experience}></ExpCard>)
+        const settings = {
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            speed: 6000,
+            autoplaySpeed: 1,
+            cssEase: "linear",
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
                     }
-                </Fade>
-            </div>
-        </div>
-    );
-};
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        initialSlide: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
 
-export default Experience;
+        };
+        return (
+            <div>
+                <Fade direction="left" duration={2000}>
+                    <h2 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-600 to-white py-10">My Experience</h2>
+                </Fade>
+                <Slider {...settings} className="px-6">
+
+                    <div>
+                        <ExpCard images={html} title="HTML"></ExpCard>
+                    </div>
+                    <div>
+                        <ExpCard images={css} title="CSS"></ExpCard>
+                    </div>
+                    <div>
+                        <ExpCard images={bootstrap} title="BootStrap"></ExpCard>
+                    </div>
+                    <div>
+                        <ExpCard images={reactBootstrap} title="React BootStrap"></ExpCard>
+                    </div>
+                    <div>
+                        <ExpCard images={tailwind} title="Tailwind"></ExpCard>
+                    </div>
+                    <div>
+                        <ExpCard images={javascript} title="JavaScript"></ExpCard>
+                    </div>
+                    <div>
+                        <ExpCard images={react} title="React"></ExpCard>
+                    </div>
+                    <div>
+                        <ExpCard images={node} title="Node JS"></ExpCard>
+                    </div>
+                    <div>
+                        <ExpCard images={express} title="Express"></ExpCard>
+                    </div>
+
+
+
+                </Slider>
+            </div >
+        );
+    }
+}
