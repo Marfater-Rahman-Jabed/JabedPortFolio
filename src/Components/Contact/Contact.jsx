@@ -15,7 +15,7 @@ const Contact = () => {
             email, phone, name, message
         }
 
-        fetch(`http://localhost:5000/sendEmail`, {
+        fetch(`https://jabed-portfolio-server.vercel.app/sendEmail`, {
             method: "Post",
             headers: {
                 'content-type': 'application/json'
@@ -43,7 +43,7 @@ const Contact = () => {
                 <div className="lg:visible invisible  lg:h-72 flex flex-col gap-2 justify-center items-center ">
 
                     <Fade direction="up">
-                        <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-700 to-white mb-4 ">Hellow !!</h1>
+                        <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-sky-700 to-white mb-4 ">HELLO !!</h1>
                         <h1 className="text-center font-bold text-3xl  text-white">I would love to hear from You !</h1>
                     </Fade>
 

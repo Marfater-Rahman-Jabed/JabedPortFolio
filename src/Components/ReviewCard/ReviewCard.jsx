@@ -14,7 +14,7 @@ const ReviewCard = ({ image }) => {
                             </div>
                         </div>
                         <div className="">
-                            <h1 className="ml-2 "><strong>Michel jeckson</strong></h1>
+                            <h1 className="ml-2 "><strong>Jhon Abraham</strong></h1>
                             <h1 className="font-semibold ml-2"><small>New York, USA</small></h1>
                         </div>
                     </div>
